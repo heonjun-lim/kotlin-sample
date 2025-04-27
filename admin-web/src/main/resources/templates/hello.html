@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>환영합니다!</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .welcome-box {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+<div class="welcome-box">
+    <h1>환영합니다!</h1>
+    <p>우리 사이트에 방문해주셔서 감사합니다 😊</p>
+    <div class="time">
+        현재 시간: <span th:text="${time}">-</span>
+    </div>
+</div>
+</body>
+</html>

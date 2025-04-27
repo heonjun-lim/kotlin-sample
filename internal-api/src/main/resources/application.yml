@@ -1,12 +1,15 @@
 spring:
   application:
-    name: kotlin-sample-core
+    name: kotlin-sample-api
   profiles:
     group:
       local:
         - core-local
+        - api-local
       dev:
         - core-dev
+        - api-dev
       prod:
         - core-prod
+        - api-prod
 

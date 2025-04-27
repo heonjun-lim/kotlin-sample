@@ -1,5 +1,5 @@
 rootProject.name = "kotlin-sample"
 
-include("api")
-include("web")
+include("internal-api")
+include("admin-web")
 include("core")

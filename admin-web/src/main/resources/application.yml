@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: kotlin-sample-web
+  profiles:
+    group:
+      local:
+        - web-local
+      dev:
+        - web-dev
+      prod:
+        - web-prod
+
+server:
+  port: 8081
