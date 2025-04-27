@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: kotlin-sample
+  profiles:
+    group:
+      local:
+        - core-local
+        - consumer-local
+      dev:
+        - core-dev
+        - consumer-dev
+      prod:
+        - core-prod
+        - consumer-prod
+
